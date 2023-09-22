@@ -1,0 +1,26 @@
+.container {
+    background-color: #229ED9;
+    padding: 20px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.imageContainer {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carouselImage {
+    width: 300px;
+    height: 150px;
+    border-radius: 0.75rem;
+}
